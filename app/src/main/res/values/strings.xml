@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">iHeartButton2</string>
+    <string name="status_bar"><![CDATA[<Status Bar>]]></string>
+</resources>
