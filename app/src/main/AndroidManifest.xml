@@ -21,6 +21,20 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
+        <service
+            android:name=".MediaControllerService"
+            android:enabled="true" >
+        </service>
+
+        <receiver
+            android:name=".MediaControllerRestarterBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:label="RestartServiceWhenStopped">
+            <intent-filter>
+                <action android:name=".RestartSensor"/>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
