@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        timestamps()
+        sleep(time: 2, unit: 'NANOSECONDS')
       }
     }
   }
