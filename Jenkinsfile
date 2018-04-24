@@ -9,12 +9,12 @@ pipeline {
                     ls -lah
                 '''
        }
-       stage('Sanity check') {
-            steps {
-                input "Does the staging environment look ok?"
-            }
-        }
     }
+     stage('Sanity check') {
+          steps {
+              input "Does the staging environment look ok?"
+          }
+      }
   }
   post {
         always {
