@@ -14,7 +14,7 @@ pipeline {
         }
         stage('error') {
           steps {
-            hipchatSend(token: 'e14c89f57c881bdbf90bac5e90eba3', message: 'Hello! This is a test!', color: 'RED', room: 'AndroidTestAutomation  Android Automation build updates Make a video callIntegrationsRoom actions', sendAs: 'DarienTest', v2enabled: true)
+            hipchatSend(token: 'pGHRfKyMlUlkzJRRILAFDLMXhkwMPHsE5FxVrziN', message: 'Hello! This is a test!', color: 'RED', room: 'AndroidTestAutomation  Android Automation build updates Make a video callIntegrationsRoom actions', sendAs: 'DarienTest', v2enabled: true)
           }
         }
       }
